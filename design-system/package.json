@@ -1,6 +1,6 @@
 {
   "name": "@hortifrut/design-system",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Design system synced from Hortifrut (DS Generator Repeat).",
   "main": "components/index.ts",
   "types": "components/index.ts",
