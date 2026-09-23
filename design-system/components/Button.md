@@ -29,11 +29,6 @@ An interactive control that triggers an immediate action, submission, or navigat
 | Variant | Purpose |
 | --- | --- |
 | `default` | Standard appearance used when no special emphasis applies. |
-| `secondary` | Secondary action paired with a primary. |
-| `destructive` | Destructive action; removes or permanently changes data. |
-| `outline` | Bordered, low-fill action; secondary emphasis on busy surfaces. |
-| `ghost` | Minimal-chrome action for dense or in-context use. |
-| `link` | Inline, text-only action that reads like a hyperlink. |
 
 ### Sizes
 
@@ -56,14 +51,15 @@ An interactive control that triggers an immediate action, submission, or navigat
 | `hover` | Pointer over the control. |
 | `focus` | Keyboard focus (visible ring). |
 | `disabled` | Non-interactive; reduced contrast, not announced as actionable. |
+| `active` | Being pressed / activated. |
 
 ## Props
 
 | Name | Type | Values | Default | Description |
 |------|------|--------|---------|-------------|
-| `Variant` | variant | default, secondary, destructive, outline, ghost, link | `default` | |
+| `Variant` | variant | default | `default` | |
 | `Size` | variant | xs, sm, md, lg, icon-xs, icon-sm, icon, icon-lg | `md` | |
-| `State` | variant | default, hover, focus, disabled | `default` | |
+| `State` | variant | default, hover, focus, disabled, active | `default` | |
 | `Label` | text |  | `Button` | |
 | `HasIcon` | boolean |  | `true` | |
 | `IconOnly` | boolean |  | `false` | |
