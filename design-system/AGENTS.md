@@ -1,4 +1,4 @@
-# AGENTS.md — hortifrut design system (v0.1.1)
+# AGENTS.md — hortifrut design system (v0.1.2)
 
 > **AI entry guide.** Read this before using any component or token from
 > this design-system package.
