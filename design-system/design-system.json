@@ -1,0 +1,108 @@
+{
+  "name": "hortifrut",
+  "version": "0.1.1",
+  "components": [
+    {
+      "name": "Button",
+      "category": "shadcn",
+      "public": true,
+      "description": "An interactive control that triggers an immediate action, submission, or navigation.",
+      "whenToUse": [
+        "Confirming or submitting a form",
+        "Triggering a primary action on a screen",
+        "Launching a dialog, drawer or destructive flow",
+        "Grouping a decision pair (Cancel / Confirm)"
+      ],
+      "whenNotToUse": [
+        "For in-page navigation to another URL — use Link",
+        "For toggling state on/off — use Switch or a selectable control",
+        "When the visual is just decoration with no action"
+      ],
+      "props": [
+        {
+          "name": "Variant",
+          "kind": "variant",
+          "values": [
+            "default",
+            "secondary",
+            "destructive",
+            "outline",
+            "ghost",
+            "link"
+          ],
+          "default": "default"
+        },
+        {
+          "name": "Size",
+          "kind": "variant",
+          "values": [
+            "xs",
+            "sm",
+            "md",
+            "lg",
+            "icon-xs",
+            "icon-sm",
+            "icon",
+            "icon-lg"
+          ],
+          "default": "md"
+        },
+        {
+          "name": "State",
+          "kind": "variant",
+          "values": [
+            "default",
+            "hover",
+            "focus",
+            "disabled"
+          ],
+          "default": "default"
+        },
+        {
+          "name": "Label",
+          "kind": "text",
+          "default": "Button"
+        },
+        {
+          "name": "HasIcon",
+          "kind": "boolean",
+          "default": true
+        },
+        {
+          "name": "IconOnly",
+          "kind": "boolean",
+          "default": false
+        }
+      ],
+      "tokensUsed": [
+        "accent.default",
+        "accent.foreground",
+        "base.background",
+        "base.foreground",
+        "destructive.default",
+        "destructive.foreground",
+        "icon.md",
+        "input",
+        "primary.default",
+        "primary.foreground",
+        "radius.md",
+        "ring",
+        "secondary.default",
+        "secondary.foreground",
+        "sizes.components.lg",
+        "sizes.components.md",
+        "sizes.components.sm",
+        "sizes.scale.7",
+        "spacing.1",
+        "spacing.2",
+        "spacing.3",
+        "spacing.4",
+        "spacing.8",
+        "typography.roles.body.steps.xs",
+        "typography.roles.label.steps.sm"
+      ],
+      "file": "components/Button.tsx",
+      "doc": "components/Button.md"
+    }
+  ]
+}
