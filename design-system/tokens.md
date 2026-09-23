@@ -48,17 +48,17 @@ Import `tokens.css` once at your app root — then reference any token as
 | `--ds-color-info-800` | `#1e40af` |
 | `--ds-color-info-900` | `#1e3a8a` |
 | `--ds-color-info-950` | `#172554` |
-| `--ds-color-brand-50` | `#fff8fa` |
-| `--ds-color-brand-100` | `#ffccdc` |
-| `--ds-color-brand-200` | `#ffa7c5` |
-| `--ds-color-brand-300` | `#ff8ab6` |
-| `--ds-color-brand-400` | `#ff76ac` |
-| `--ds-color-brand-500` | `#ff6fa9` |
-| `--ds-color-brand-600` | `#f56aa2` |
-| `--ds-color-brand-700` | `#d75c8d` |
-| `--ds-color-brand-800` | `#a6456c` |
-| `--ds-color-brand-900` | `#662741` |
-| `--ds-color-brand-950` | `#1e060f` |
+| `--ds-color-brand-50` | `#fff8f9` |
+| `--ds-color-brand-100` | `#ffbecb` |
+| `--ds-color-brand-200` | `#ff8ca8` |
+| `--ds-color-brand-300` | `#ff5f8e` |
+| `--ds-color-brand-400` | `#ff377f` |
+| `--ds-color-brand-500` | `#ff217a` |
+| `--ds-color-brand-600` | `#f51f75` |
+| `--ds-color-brand-700` | `#d81b66` |
+| `--ds-color-brand-800` | `#a8134e` |
+| `--ds-color-brand-900` | `#6a092f` |
+| `--ds-color-brand-950` | `#23020b` |
 | `--ds-color-error-50` | `#fef2f2` |
 | `--ds-color-error-100` | `#fee2e2` |
 | `--ds-color-error-200` | `#fecaca` |
@@ -180,17 +180,17 @@ Import `tokens.css` once at your app root — then reference any token as
 | `--ds-color-blueberry-800` | `#0f6e9e` |
 | `--ds-color-blueberry-900` | `#054262` |
 | `--ds-color-blueberry-950` | `#00111e` |
-| `--ds-color-raspberry-50` | `#fff8fa` |
-| `--ds-color-raspberry-100` | `#ffd1e2` |
-| `--ds-color-raspberry-200` | `#ffb0d0` |
-| `--ds-color-raspberry-300` | `#ff97c4` |
-| `--ds-color-raspberry-400` | `#ff87bc` |
-| `--ds-color-raspberry-500` | `#ff81ba` |
-| `--ds-color-raspberry-600` | `#f57bb2` |
-| `--ds-color-raspberry-700` | `#d66b9b` |
-| `--ds-color-raspberry-800` | `#a55077` |
-| `--ds-color-raspberry-900` | `#652e47` |
-| `--ds-color-raspberry-950` | `#1c0711` |
+| `--ds-color-raspberry-50` | `#fff8f9` |
+| `--ds-color-raspberry-100` | `#ffadbb` |
+| `--ds-color-raspberry-200` | `#f4718e` |
+| `--ds-color-raspberry-300` | `#e34471` |
+| `--ds-color-raspberry-400` | `#d81d60` |
+| `--ds-color-raspberry-500` | `#d4005a` |
+| `--ds-color-raspberry-600` | `#cc0156` |
+| `--ds-color-raspberry-700` | `#b4044c` |
+| `--ds-color-raspberry-800` | `#8e073b` |
+| `--ds-color-raspberry-900` | `#5c0725` |
+| `--ds-color-raspberry-950` | `#22030b` |
 | `--ds-color-blackberry-50` | `#fbf9ff` |
 | `--ds-color-blackberry-100` | `#c6a4ef` |
 | `--ds-color-blackberry-200` | `#9a69ce` |
@@ -487,7 +487,7 @@ _Font family, size, weight, line-height and letter-spacing._
 
 | CSS variable | Value |
 |-------------|-------|
-| `--ds-ring` | `var(--ds-color-neutral-400)` |
+| `--ds-ring` | `var(--ds-color-brand-600)` |
 
 ## chart
 
@@ -544,7 +544,7 @@ _Stroke / border colours and outline colours._
 
 | CSS variable | Value |
 |-------------|-------|
-| `--ds-primary-default` | `var(--ds-color-neutral-900)` |
+| `--ds-primary-default` | `var(--ds-color-raspberry-600)` |
 | `--ds-primary-foreground` | `var(--ds-color-neutral-50)` |
 
 ## secondary
